@@ -7,7 +7,7 @@ import { HistoriaPage } from '../historia/historia';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  historia = HistoriaPage;
+  historia = HistoriaPage;s
 
   constructor(public navCtrl: NavController) {
 
