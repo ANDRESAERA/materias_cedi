@@ -20,5 +20,8 @@ export class HomePage {
   clickdibujo(){
     this.navCtrl.push(this.dibujo);
   }
+  clickciencias(){
+    this.navCtrl.push(this.ciencias);
+  }
 
 }
