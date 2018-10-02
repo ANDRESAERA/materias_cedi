@@ -6,6 +6,7 @@ import { CienciasPage } from '../ciencias/ciencias';
 import { PappsPage } from '../papps/papps';
 import { RobPage } from '../rob/rob';
 import { PyePage } from '../pye/pye';
+import { ComPage } from '../com/com';
 
 @Component({
   selector: 'page-home',
@@ -18,6 +19,7 @@ export class HomePage {
   papps = PappsPage;
   rob = RobPage;
   pye = PyePage;
+  com = ComPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -39,6 +41,9 @@ export class HomePage {
   }
   clickpye(){
     this.navCtrl.push(this.pye);
+  }
+  clickcom(){
+    this.navCtrl.push(this.com);
   }
 
 }
