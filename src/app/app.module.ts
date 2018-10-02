@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { CienciasPage } from '../pages/ciencias/ciencias';
+import { PappsPage } from '../pages/papps/papps';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    CienciasPage
+    CienciasPage,
+    PappsPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    CienciasPage
+    CienciasPage,
+    PappsPage
   ],
   providers: [
     StatusBar,
