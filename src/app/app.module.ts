@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { PappsPage } from '../pages/papps/papps';
 import { RobPage } from '../pages/rob/rob';
+import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RobPage } from '../pages/rob/rob';
     DibujoPage,
     CienciasPage,
     PappsPage,
-    RobPage
+    RobPage,
+    PyePage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { RobPage } from '../pages/rob/rob';
     DibujoPage,
     CienciasPage,
     PappsPage,
-    RobPage
+    RobPage,
+    PyePage
   ],
   providers: [
     StatusBar,
